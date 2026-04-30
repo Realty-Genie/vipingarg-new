@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="topbar">
-        New Batches Starting May 6, 2026 | CSC Level 1 • CSC Level 2 • IFC • CIRE | $500 + Taxes
+        New Batches Starting May 6, 2026 | CSC Level 1 • CSC Level 2 • IFC • CIRE 
       </div>
 
       <header>
