@@ -98,70 +98,170 @@ export default function Home() {
 
             <div className="grid-4">
               <article className="course-card">
-                <span className="tag">CSC</span>
+                <div className="card-header">
+                  <span className="tag">In progress</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-muted"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                </div>
                 <h3>CSC Level 1 & Level 2</h3>
-                <p>
+                <p className="description">
                   Build a strong foundation in Canadian securities, financial markets, economics, fixed income,
                   equities, derivatives, portfolio management, mutual funds, ETFs, taxation and client relationships.
                 </p>
-                <ul>
-                  <li>Best for banking and wealth roles</li>
-                  <li>Separate Level 1 and Level 2 batches</li>
-                  <li>Useful for investment advisory pathways</li>
-                </ul>
+                
+                <div className="info-list">
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Assigned to Vipin Garg</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>Framework - CSC Standard</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Due on 15 June, &apos;26</span>
+                  </div>
+                </div>
+
+                <div className="stats-row">
+                  <div className="stat-item">
+                    <div className="stat-value">10</div>
+                    <div className="stat-label">sessions</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-value">$500</div>
+                    <div className="stat-label">plus taxes</div>
+                  </div>
+                </div>
+                
                 <Link href="#csc" className="btn btn-outline">
-                  View CSC Page
+                  Open course
                 </Link>
               </article>
 
               <article className="course-card">
-                <span className="tag green">IFC</span>
+                <div className="card-header">
+                  <span className="tag green">Available</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-muted"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                </div>
                 <h3>Investment Funds in Canada</h3>
-                <p>
+                <p className="description">
                   Learn mutual funds, KYC, portfolio construction, investment products, mutual fund performance, fees,
                   ethics, compliance and regulation.
                 </p>
-                <ul>
-                  <li>Best for mutual fund representative roles</li>
-                  <li>100-question exam preparation</li>
-                  <li>Practical examples included</li>
-                </ul>
+
+                <div className="info-list">
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Assigned to Vipin Garg</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>Framework - IFC Standard</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Due on 15 June, &apos;26</span>
+                  </div>
+                </div>
+
+                <div className="stats-row">
+                  <div className="stat-item">
+                    <div className="stat-value">10</div>
+                    <div className="stat-label">sessions</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-value">$500</div>
+                    <div className="stat-label">plus taxes</div>
+                  </div>
+                </div>
+
                 <Link href="#ifc" className="btn btn-outline">
-                  View IFC Page
+                  Open course
                 </Link>
               </article>
 
               <article className="course-card">
-                <span className="tag sand">CIRE</span>
+                <div className="card-header">
+                  <span className="tag sand">Regulatory</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-muted"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                </div>
                 <h3>Canadian Investment Regulatory Exam</h3>
-                <p>
+                <p className="description">
                   Prepare for regulatory framework, client relationships, complaint handling, market analysis, trade
                   execution, securities, derivatives, conflicts and ethics.
                 </p>
-                <ul>
-                  <li>Focused regulatory exam coaching</li>
-                  <li>110 MCQ format</li>
-                  <li>Ideal for investment dealer pathways</li>
-                </ul>
+
+                <div className="info-list">
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Assigned to Vipin Garg</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>Framework - CIRE Standard</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Due on 15 June, &apos;26</span>
+                  </div>
+                </div>
+
+                <div className="stats-row">
+                  <div className="stat-item">
+                    <div className="stat-value">10</div>
+                    <div className="stat-label">sessions</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-value">$500</div>
+                    <div className="stat-label">plus taxes</div>
+                  </div>
+                </div>
+
                 <Link href="#cire" className="btn btn-outline">
-                  View CIRE Page
+                  Open course
                 </Link>
               </article>
 
               <article className="course-card">
-                <span className="tag">LLQP</span>
+                <div className="card-header">
+                  <span className="tag">Licensing</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-muted"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                </div>
                 <h3>Life License Qualification Program</h3>
-                <p>
+                <p className="description">
                   Prepare for life insurance licensing concepts including life insurance, accident and sickness
                   insurance, segregated funds, annuities, ethics and client needs analysis.
                 </p>
-                <ul>
-                  <li>Best for insurance advisor careers</li>
-                  <li>One-to-one support available</li>
-                  <li>Exam strategy and revision</li>
-                </ul>
+
+                <div className="info-list">
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Assigned to Vipin Garg</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>Framework - LLQP Standard</span>
+                  </div>
+                  <div className="info-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Due on 15 June, &apos;26</span>
+                  </div>
+                </div>
+
+                <div className="stats-row">
+                  <div className="stat-item">
+                    <div className="stat-value">10</div>
+                    <div className="stat-label">sessions</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-value">$500</div>
+                    <div className="stat-label">plus taxes</div>
+                  </div>
+                </div>
+
                 <Link href="#llqp" className="btn btn-outline">
-                  View LLQP Page
+                  Open course
                 </Link>
               </article>
             </div>
