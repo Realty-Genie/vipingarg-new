@@ -82,11 +82,37 @@ header {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-weight: 900;
-  font-size: 19px;
   color: var(--navy);
-  letter-spacing: -0.5px;
-  line-height: 1.1;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.brand:hover {
+  transform: translateY(-1px);
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand-name {
+  font-family: var(--font-brand), Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: var(--navy);
+  text-wrap: balance;
+}
+
+.brand-tag {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.68rem;
+  color: var(--teal);
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .logo-mark {
@@ -99,15 +125,6 @@ header {
   color: var(--white);
   font-weight: 900;
   box-shadow: var(--shadow-soft);
-}
-
-.brand span:last-child {
-  display: block;
-  font-size: 12px;
-  color: var(--muted);
-  font-weight: 700;
-  letter-spacing: 0;
-  margin-top: 3px;
 }
 
 .nav-links {

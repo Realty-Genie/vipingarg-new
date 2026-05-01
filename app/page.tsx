@@ -24,7 +24,9 @@ export default function Home() {
                 className="object-cover"
               />
             </div>
-            <span>Vipin Garg</span>
+            <span className="brand-copy">
+              <span className="brand-name">Vipin Garg</span>
+            </span>
           </Link>
           <div className="nav-links">
             <Link href="#courses" className="hidden-mobile">
